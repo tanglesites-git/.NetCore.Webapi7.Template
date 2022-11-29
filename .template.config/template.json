@@ -1,0 +1,15 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Joseph Burton",
+    "classifications": ["webapi"],
+    "description": "Alternate webapi template for .NET 7",
+    "identity": "Tanglesites.Webapi.Template",
+    "name": "Tanglesites.Webapi.Template",
+    "sourceName": "{tanglesites}",
+    "shortName": "tswebapi",
+    "tags": {
+        "language": "C#",
+        "type": "project"
+    },
+    "preferNameDirectory": true
+}
