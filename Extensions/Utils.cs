@@ -7,10 +7,12 @@ public static class Utils
 {
     public static ILogger LoggerConfiguration()
     {
-        return new LoggerConfiguration()
-            .MinimumLevel.Information()
+        Log.Logger = new LoggerConfiguration()
+            .MinimumLevel.Debug()
             .Enrich.FromLogContext()
             .WriteTo.Console()
-            .CreateLogger();
-    } 
+            .CreateBootstrapLogger();
+
+        return Log.Logger;
+    }
 }
