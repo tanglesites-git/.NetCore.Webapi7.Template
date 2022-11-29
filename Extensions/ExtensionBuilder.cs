@@ -8,9 +8,9 @@ public static class ExtensionBuilder
     public static WebApplicationBuilder AddTanglesitesTemplate(this WebApplicationBuilder builder, ILogger logger)
     {
         builder
-            .AddLogging(logger)
-            .AddEndpointsApiExplorer()
-            .AddSwaggerGen();
+            .AddTanglesitesLogging(logger)
+            .AddTanglesitesEndpointsApiExplorer()
+            .AddTanglesitesSwaggerGen();
         return builder;
     }
 }
