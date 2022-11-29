@@ -27,6 +27,5 @@ finally
 {
     Log.Information("Flushing Stream and Disposing.");
     Log.CloseAndFlush();
-    Log.Information("Shut down complete");
 }
 
