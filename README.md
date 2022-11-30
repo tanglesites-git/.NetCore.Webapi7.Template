@@ -1,4 +1,4 @@
-# .NetCore.Webapi.Template
+# .NetCore.Webapi7.Template
 Alternate .NetCore Webapi Template
 
 > How do you use this repo? 
@@ -17,7 +17,7 @@ Razor Class Library   razorclasslib               [C#]        Web/Razor/Library
 Razor Component       razorcomponent              [C#]        Web/ASP.NET
 Razor Page            page                        [C#]        Web/ASP.NET
 Solution File         sln,solution                            Solution
-`Tanglesites.Webap...  tswebapi                    [C#]        webapi`
+`Tanglesites.Webap...  tsmini                    [C#]        webapi`
 Web Config            webconfig
 ```
 
