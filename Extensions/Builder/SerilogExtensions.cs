@@ -3,7 +3,7 @@
 using Serilog;
 using ILogger = Serilog.ILogger;
 
-namespace api.Extensions.Builder;
+namespace NetCoreWebapi7Template.Extensions.Builder;
 
 public static class SerilogExtensions
 {

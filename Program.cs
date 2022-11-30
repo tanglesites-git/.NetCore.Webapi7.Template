@@ -1,10 +1,11 @@
 using api.Extensions;
+using NetCoreWebapi7Template.Extensions;
 using Serilog;
 
 
 
 var builder = WebApplication.CreateBuilder(args).
-    AddTanglesitesTemplate(Utils.LoggerConfiguration());
+    AddTanglesites(Utils.LoggerConfiguration());
 
 var app = builder.Build()
     .UseTanglesites();
@@ -25,7 +26,7 @@ catch (Exception ex)
 }
 finally
 {
-    Log.Information("Flushing Stream and Disposing.");
+    Log.Information("Flushing Stream and Disposing");
     Log.CloseAndFlush();
 }
 

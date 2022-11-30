@@ -1,6 +1,6 @@
-﻿using api.Extensions.App;
+﻿using NetCoreWebapi7Template.Extensions.App;
 
-namespace api.Extensions;
+namespace NetCoreWebapi7Template.Extensions;
 
 public static class TanglesitesApplication
 {

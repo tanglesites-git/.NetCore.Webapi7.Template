@@ -1,6 +1,6 @@
 ﻿using Serilog;
 
-namespace api.Extensions.App;
+namespace NetCoreWebapi7Template.Extensions.App;
 
 public static class HttpsRedirectionApplicationExtension
 {

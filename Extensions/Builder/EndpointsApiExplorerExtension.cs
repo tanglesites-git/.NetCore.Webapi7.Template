@@ -1,4 +1,4 @@
-﻿namespace api.Extensions.Builder;
+﻿namespace NetCoreWebapi7Template.Extensions.Builder;
 
 public static class EndpointsApiExplorerExtension
 {
