@@ -1,4 +1,3 @@
-using api.Extensions;
 using NetCoreWebapi7Template.Extensions;
 using Serilog;
 
@@ -9,7 +8,6 @@ var builder = WebApplication.CreateBuilder(args).
 
 var app = builder.Build()
     .UseTanglesites();
-
 
 try
 {

@@ -1,7 +1,7 @@
 ﻿using Serilog;
 using ILogger = Serilog.ILogger;
 
-namespace api.Extensions;
+namespace NetCoreWebapi7Template.Extensions;
 
 public static class Utils
 {

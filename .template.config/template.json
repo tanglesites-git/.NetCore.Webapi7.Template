@@ -3,10 +3,10 @@
     "author": "Joseph Burton",
     "classifications": ["webapi"],
     "description": "Alternate webapi template for .NET 7",
-    "identity": "Tanglesites.Webapi.Template",
-    "name": "Tanglesites.Webapi.Template",
+    "identity": "Tanglesites.Webapi7.Template",
+    "name": "Tanglesites.Webapi7.Template",
     "sourceName": "{tanglesites}",
-    "shortName": "tswebapi",
+    "shortName": "tsmini",
     "tags": {
         "language": "C#",
         "type": "project"
